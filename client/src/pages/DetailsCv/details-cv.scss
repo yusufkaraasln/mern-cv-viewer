@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #18191a;
+
+  .cv-container {
+    height: 70vh;
+    width: 50vw;
+    background: #242526;
+    border: 2px solid #393a3b;
+    color: #b0b3b8;
+
+    border-radius: 60px;
+
+    ul {
+      list-style: none;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      li {
+          letter-spacing: 10px;
+        font-size: 40px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

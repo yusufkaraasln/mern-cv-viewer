@@ -1,0 +1,56 @@
+.admin {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: space-between;
+  header {
+    .header-container {
+      span{
+        color: #fff;
+        font-size: 30px;
+      }
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      button {
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        transition: all 400ms;
+        cursor: pointer;
+        &:hover {
+          color: #fff;
+          background: rgb(153, 153, 153);
+        }
+      }
+    }
+  }
+
+  main {
+    margin: 0 auto;
+    height: 50vh;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px 20px 0 0;
+    min-width: 80%;
+    max-width: 80%;
+    padding: 30px;
+    overflow: auto;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    .single_cv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 6rem;
+        padding: 20px;
+        border-radius: 10px;
+        color: #fff;
+        align-items: center;
+        background: rgb(104, 104, 104);
+         
+    }
+  }
+}
